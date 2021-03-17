@@ -1,7 +1,8 @@
 numbers = list(map(int, input().split()))
 
-for i in range(9):
-    numbers[i+2] = (numbers[i] + numbers[i+1]) %10
+for i in range(8):
+    numbers.append((numbers[i] + numbers[i+1]) %10)
 
 
-print(numbers)
+for number in numbers:
+    print(number, end=' ')
