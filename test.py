@@ -1,8 +1,6 @@
-from datetime import datetime
+def my_func(a):
+    return a
 
-now = datetime.now()
-a = 0
-a = now.year - 1900 # p
-a += now.month - 1  # q
-a += now.day
+res = my_func(10)
 
+print(res)
