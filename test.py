@@ -1,6 +1,3 @@
-def my_func(a):
-    return a
+a = '1'
 
-res = my_func(10)
-
-print(res)
+print(a.lower())
